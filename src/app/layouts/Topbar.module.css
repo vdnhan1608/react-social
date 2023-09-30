@@ -1,0 +1,61 @@
+.container {
+	width: 100%;
+	height: 100px;
+	background-color: #1877f2;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.leftContainer {
+	width: 85%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.searchHomepageTimelineContainer {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.homepageTimelineContainer {
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.friendMessageNotificationAvatarContainer {
+	margin-left: 15px;
+	width: 20%;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.input {
+	color: black;
+	width: 400px;
+	height: 100%;
+	padding: 10px;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.searchBar {
+	background-color: white;
+	width: 500px;
+	height: 35px;
+	padding: 10px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+}
