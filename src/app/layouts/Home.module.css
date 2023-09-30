@@ -3,3 +3,8 @@
 	height: 100%;
 	background-color: white;
 }
+
+.bodyContainer {
+	display: flex;
+	height: 100%;
+}

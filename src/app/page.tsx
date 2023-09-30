@@ -11,9 +11,11 @@ export default function Home() {
 	return (
 		<div className={styles.containter}>
 			<Topbar />
-			<Sidebar />
-			<Feed />
-			<Rightbar />
+			<div className={styles.bodyContainer}>
+				<Sidebar />
+				<Feed />
+				<Rightbar />
+			</div>
 		</div>
 	);
 }

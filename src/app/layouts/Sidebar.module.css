@@ -1,4 +1,12 @@
 .container {
 	flex: 3;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	background-color: yellowgreen;
+}
+
+.featureContainer {
+	display: flex;
+	color: back;
 }
