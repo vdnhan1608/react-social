@@ -30,10 +30,10 @@ export function Topbar() {
 					<ChatIcon />
 					<NotificationsIcon />
 					<Image
-						src="/../images/avatar.png"
+						src="/images/avatar.png"
 						alt="avatar-image"
-						width={100}
-						height={100}
+						width={50}
+						height={50}
 					/>
 				</div>
 			</div>
