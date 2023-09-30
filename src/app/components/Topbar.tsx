@@ -8,7 +8,7 @@ import SearchIcon from '@mui/icons-material/Search';
 export function Topbar() {
 	return (
 		<div className={styles.container}>
-			<h1>Social</h1>
+			<h1 className={styles.title}>Social</h1>
 			<div className={styles.leftContainer}>
 				<div className={styles.searchHomepageTimelineContainer}>
 					<div className={styles.searchBar}>
@@ -25,15 +25,29 @@ export function Topbar() {
 						<a href="/">Timeline</a>
 					</div>
 				</div>
+
 				<div className={styles.friendMessageNotificationAvatarContainer}>
-					<PersonIcon />
-					<ChatIcon />
-					<NotificationsIcon />
+					<div className={styles.notificationContainer}>
+						<div className={styles.notificationBadgeContainer}>
+							<PersonIcon />
+							<div className={styles.badge}>10</div>
+						</div>
+						<div className={styles.notificationBadgeContainer}>
+							<ChatIcon />
+							<div className={styles.badge}>12</div>
+						</div>
+						<div className={styles.notificationBadgeContainer}>
+							<NotificationsIcon />
+							<div className={styles.badge}>99</div>
+						</div>
+					</div>
+
 					<Image
 						src="/images/avatar.png"
 						alt="avatar-image"
 						width={50}
 						height={50}
+						className={styles.image}
 					/>
 				</div>
 			</div>
