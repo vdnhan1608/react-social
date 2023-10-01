@@ -2,11 +2,55 @@
 	flex: 3;
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: auto;
 	background-color: yellowgreen;
+	overflow: hidden;
+	overflow-y: auto;
 }
 
+.featuresContainer {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	min-height: 400px;
+	height: 50%;
+	justify-content: space-around;
+}
 .featureContainer {
 	display: flex;
 	color: back;
+}
+
+.featureContainer h1 {
+	margin-left: 10px;
+}
+
+.featureContainer:hover {
+	cursor: pointer;
+}
+
+.friendListContainer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	flex-grow: 1;
+	padding: 10px;
+	justify-content: space-around;
+	/* min-height: 500px; */
+	min-height: max-content;
+}
+
+.friendContainer {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.friendContainer h1 {
+	margin-left: 10px;
+}
+
+.image {
+	border-radius: 70px;
 }
