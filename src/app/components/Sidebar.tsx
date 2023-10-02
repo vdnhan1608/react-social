@@ -46,7 +46,7 @@ export function Sidebar() {
 					<SchoolIcon />
 					<h1>Schools</h1>
 				</div>
-				<button>Show more</button>
+				<button className={styles.showMoreBtn}>Show more</button>
 			</div>
 			<div className={styles.friendListContainer}>
 				<div className={styles.friendContainer}>
