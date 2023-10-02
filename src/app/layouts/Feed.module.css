@@ -1,4 +1,6 @@
 .container {
-	flex: 3;
+	flex: 4;
 	background-color: aqua;
+	display: flex;
+	justify-content: center;
 }

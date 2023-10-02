@@ -1,0 +1,70 @@
+.container {
+	margin-top: 20px;
+	width: 90%;
+	height: 200px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.statusContainer {
+	color: black;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+}
+
+.input {
+	margin-left: 10px;
+	width: 500px;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.image {
+	border-radius: 30px;
+}
+
+.line {
+	width: 90%;
+	height: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: black;
+}
+
+.postingFeaturesContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-grow: 1;
+}
+
+.postingFeaturesContainer:hover {
+	cursor: pointer;
+}
+
+.postingFeaturesContainer h1 {
+	margin-left: 5px;
+	color: black;
+}
+
+.postingFeatureContainer {
+	display: flex;
+}
+
+.shareButton {
+	background-color: #45bd62;
+	width: 60px;
+	height: 30px;
+	border-radius: 5px;
+}
