@@ -7,6 +7,10 @@ export function Feed() {
 		<div className={styles.container}>
 			<StatusBox />
 			<Post />
+			<Post />
+			<Post />
+			<Post />
+			<Post />
 		</div>
 	);
 }

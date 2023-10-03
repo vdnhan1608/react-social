@@ -1,6 +1,81 @@
 .container {
 	width: 90%;
-	height: 300px;
+	height: auto;
+	padding-bottom: 10px;
 	background-color: white;
 	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container h1 {
+	color: black;
+}
+.headContainer {
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.infoContainer {
+	display: flex;
+	align-items: center;
+	width: 500px;
+}
+.infoContainer h1 {
+	margin-left: 10px;
+	font-weight: bolder;
+}
+
+.infoContainer h2 {
+	margin-left: 10px;
+	font-weight: light;
+	font-size: 15px;
+}
+
+.avatar {
+	border-radius: 30px;
+}
+
+.bodyContainer {
+	width: 100%;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bodyContainer h1 {
+	margin-bottom: 10px;
+}
+
+.image {
+	/* width: auto; */
+	flex: 1;
+	display: flex;
+	align-items: center;
+	/* height: auto; */
+	justify-content: center;
+}
+
+.footerContainer {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	height: fit-content;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.statContainer {
+	display: flex;
+}
+
+.statContainer h1 {
+	margin-left: 10px;
+}
+
+.statContainer > :nth-child(2) {
+	margin-left: 5px;
 }
