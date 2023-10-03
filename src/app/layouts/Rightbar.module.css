@@ -1,4 +1,61 @@
 .container {
 	flex: 2;
-	background-color: beige;
+	height: auto;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.birthdayNotificationContainer {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.birthdayNotificationContainer p {
+	margin-left: 10px;
+	color: black;
+}
+
+.imageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.image {
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.footerContainer {
+	flex: 1;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.footerContainer > :nth-child(1) {
+	color: black;
+	margin-bottom: 10px;
+}
+.onlineFriendList {
+	display: flex;
+	flex-direction: column;
+}
+
+.onlineFriendInfoContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.onlineFriendInfoContainer h1 {
+	margin-left: 10px;
+	color: black;
+}
+
+.avatar {
+	border-radius: 30px;
 }
